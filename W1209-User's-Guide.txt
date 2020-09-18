@@ -1,0 +1,62 @@
+**DOWNLOAD J1209PEG*** : http://tiny.cc/hfhnqz
+----------------------------------------------------------------------------------------------
+                                      OVERVIEW
+The W1209 is an incredibly low cost yet highly functional thermostat controller.
+Although this module has an embedded microcontroller no programming knowledge is required.
+----------------------------------------------------------------------------------------------
+                                    SPECIFICATION
+Temperature Control Range: -50 ~ 110 C
+Resolution at -9.9 to 99.9: 0.1 C
+Resolution at all other temperatures: 1 C
+Measurement Accuracy: 0.1 C
+Control Accuracy: 0.1 C
+Refresh Rate: 0.5 Seconds
+Input Power (DC): 12V
+Measuring Inputs: NTC (10K 0.5%)
+Waterproof Sensor: 0.5M
+Output: 1 Channel Relay Output, Capacity: 10A
+-----------------------------------------------------------------------------------------------
+                                  POWER CONSUMPTION
+Static Current: <=35mA
+Current: <=65mA
+-----------------------------------------------------------------------------------------------
+                                   SETTINGS CHART
+Long press the “SET” button to activate the menu.
+Code Description Range Default Value
+P0 Heat C/H C
+P1 Backlash Set 0.1-15 2
+P2 Upper Limit 110 110
+P3 Lower Limit -50 -50
+P4 Correction -7.0 ~ 7.0 0
+P5 Delay Start Time 0-10 mins 0
+P6 High Temperature Alarm 0-110 OFF
+Long pressing +- will reset all values to their default
+-----------------------------------------------------------------------------------------------
+                           DISCREPTIONS OF "P*" FUNCTIONS
+Setting the cooling or heating parameter P0:
+The parameter P0 has two settings, C and H. When set to C (default) the relay will energise when the
+temperature is reached. Use this setting if connecting to an air-conditioning system. When set to H
+the relay will de-energise when the temperature is reached. Use this setting if controlling a heating
+device.
+Setting the hysteresis parameter P1:
+This sets how much change in temperature must occur before the relay will change state. For
+example if set to the default 2oC and the the trigger temperature has been set to 25oC, it will not deenergise until the temperature falls back below below 23oC. Setting this hysteresis helps stop the
+thermostat from continually triggering when the temperature drifts around the trip temperature.
+Setting the upper limit of the thermostat parameter P2:
+This parameter limits the maximum trigger temperature that can be set. It can be used as a safety to
+stop an excessively high trigger temperature from accidentally being set by the user.
+Setting the lower limit of the thermostat parameter P3:
+This parameter limits the minimum trigger temperature that can be set. It can be used as a safety to
+stop an excessively low trigger temperature from accidentally being set by the user.
+Setting temperature offset correction parameter P4:
+Should you find there is a difference between the displayed temperature and the actual temperature
+(for instance if the temperature probe is on a long run of cable) you can make minor corrections to
+the temperature reading with this parameter.
+Setting the trigger delay parameter P5:
+This parameter allows for delaying switching of the relay when the trigger temperature has be
+reached. The parameter can be set in one minute increments up to a maximum of 10 minutes.
+Setting the high temperature alarm parameter P6:
+Setting a value for this parameter will cause the relay to switch off when the the temperature
+reaches this setting. The seven segment display will also show '---' to indicate an alarm condition. The
+relay will not re-energise until the temperature falls below this value. The default setting is OFF.
+-----------------------------------------------------------------------------------------------
