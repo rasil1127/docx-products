@@ -1,1 +1,145 @@
-# docx-products
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Docx</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>DOCX PRODUCTS</h1>
+  <p>These are all the docx products.</p>
+</div>
+
+<div class="navbar">
+  <a href="download.html">Download Docx</a>
+    <a href="downloadparser.html">Download Parser</a>
+      <a href="downloaddoxdebugger.html">Download DocxDebugger</a>
+        <a href="downloaddocencrypter.html">Download DocEncrypter</a>
+		  <a href="batbenchmark.html">Download BatBenchmark</a>
+</div>
+    <h2><center>ABOUT DOCX<center></h2>
+    <h5><center>jun 5, 2020<center></h5>
+    <p>What is Docx?</p>
+    <p>Docx is a word processer witch makes encrypted documents witch have a extension ".doc" This is done by you typeing your document and the the program makeing it encrypted really easily! have a try.</p>
+    <br>
+    <p>How Do I Download?</p>
+    <p>Head over to the download tab and you will see lots of downloadable links dont worry these are the virsions of Docx what we mean by that is different virsions of Docx that are designed to run on legacy devices pick the newest virsion of docx or pick one of the legecy virsions of Docx</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h5>contact manegote@gmail.com</h5>
+  <p>Docx all rights resvered</p>
+  <a href="downloadjpeg.html">-</a>
+  <a href="downloadfourm.html">-</a>
+</div>
+
+</body>
+</html>
